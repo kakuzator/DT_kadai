@@ -1,0 +1,215 @@
+/*TOP・全体共通*/
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+	color: #999999;
+	position: relative;
+}
+
+.hamburgermenu {
+	display: none;
+}
+
+header div,
+.head-logo {
+	display: flex;
+	margin: 0;
+	z-index: 0;
+}
+
+.header {
+	margin: 0 auto;
+	width: 1300px;
+}
+
+.logo-wrap {
+	margin-left: 90px;
+}
+
+.head-logo {
+	font-size: 25px;
+}
+
+.head-logo-img {
+	margin: 0 15px;
+}
+
+.head-nav {
+	display: block;
+	margin-left: 30px;
+}
+
+.head-nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	line-height: 38px;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 10px;
+}
+
+footer,
+.footer-smaho,
+.foot-nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	line-height: 38px;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #EEEEEE;
+	color: #696969;
+	font-size: 10px;
+}
+
+.footer-smaho {
+	display: none;
+}
+
+.head-nav ul li,
+.foot-nav ul li {
+	margin-left: 40px;
+}
+
+.head-nav ul li a,
+.foot-nav ul li a {
+	font-size: 15px;
+	color: #696969;
+}
+
+.foot-wrap {
+	display: flex;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-content,
+.under-content {
+	position: relative;
+	height: 900px;
+}
+
+.under-content {
+	background-color: #EEFFFF;
+}
+
+.main-banner {
+	display: block;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.main-banner-smaho {
+	display: none;
+}
+
+.text-logo-top {
+	position: absolute;
+	top: 350px;
+	left: 240px;
+}
+
+.text-logo-bottom {
+	position: absolute;
+	top: 470px;
+	left: 240px;
+}
+
+.under-content {
+	position: relative;
+}
+
+.map {
+	position: absolute;
+	left: 600px;
+	right: 0;
+	margin: auto;
+}
+
+.example {
+	position: absolute;
+	top: 500px;
+	left: 240px;
+	right: 0;
+	margin: auto;
+}
+
+.component {
+	margin-left: 5px;
+}
+
+.bar {
+	position: absolute;
+	left: 240px;
+}
+
+/*個別ページ共通*/
+
+.apply-link {}
+
+.banner {
+	display: block;
+}
+
+.heading {
+	color: #3399ff;
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+}
+
+.button {
+	position: relative;
+}
+
+.button p {
+	position: absolute;
+	top: 24%;
+	left: 51%;
+	color: #ffffff;
+	transform: translate(-50%, -50%);
+	font-size: 15px;
+}
+
+.selfCheckbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.arrow-white {
+	position: absolute;
+	top: 22px;
+	left: 620px;
+}
+
+.apply {
+	position: relative;
+}
+
+.apply p {
+	text-align: center;
+	font-size: 12px;
+	margin: 10px;
+	0;
+}
+
+.arrow-blue {
+	position: absolute;
+	left: 620px;
+	top: 5px;
+}
