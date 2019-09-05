@@ -12,6 +12,10 @@ body {
 	display: none;
 }
 
+.hidden-menu {
+	display: none;
+}
+
 header div,
 .head-logo {
 	display: flex;
