@@ -1,6 +1,5 @@
 $(function () {
-$(hamburgermenu).on('click', function () {
-	$('hidden-menu').toggleClass('open')
-})
-});
+	$(hamburgermenu).on('click', function () {
+		$('hidden-menu').toggleClass('open')
+	})
 });
