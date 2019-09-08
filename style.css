@@ -10,6 +10,10 @@ body {
 	color: #999999;
 }
 
+.smaho-menu {
+	display: none;
+}
+
 
 .hamburgermenu {
 	display: none;

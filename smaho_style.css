@@ -107,6 +107,7 @@
 
 		.active label span:nth-child(1) {
 			transform: translateY(10px) rotate(-45deg);
+
 		}
 
 		.hamburgermenu label span:nth-child(2) {
@@ -124,6 +125,7 @@
 
 		.active label span:nth-child(3) {
 			transform: translateY(-10px)rotate(45deg);
+
 		}
 
 		.hamburgermenu-wrap {
@@ -142,11 +144,28 @@
 			bottom: -26px;
 		}
 
+		.js-click-menu.active {
+			position: absolute;
+			margin: 0;
+			left: 0;
+		}
+
 		.head-nav.active {
 			display: block;
 		}
 
-		.head-nav.active ul li a {}
+		.head-nav.active ul {
+			display: block;
+			padding: 0;
+		}
+
+		.head-nav.active ul li {
+			position: relative;
+			background: #FFFFFF;
+			margin: 0;
+			width: 414px;
+			opacity: 0.9;
+		}
 
 
 		footer {
