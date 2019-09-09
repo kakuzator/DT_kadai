@@ -6,8 +6,8 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-	color: #999999;
+	font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic'
+		color: #999999;
 }
 
 .smaho-menu {
@@ -17,6 +17,7 @@ body {
 
 .hamburgermenu {
 	display: none;
+	z-index: 1
 }
 
 .hidden-menu {
@@ -35,6 +36,8 @@ header div,
 	width: 1300px;
 }
 
+
+
 .logo-wrap {
 	margin-left: 90px;
 }
@@ -50,6 +53,7 @@ header div,
 .head-nav {
 	display: block;
 	margin-left: 30px;
+	z-index: 0;
 }
 
 .head-nav ul {
