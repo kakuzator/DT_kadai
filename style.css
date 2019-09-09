@@ -63,8 +63,7 @@ header div,
 	font-size: 15px;
 }
 
-.main-content,
-	{
+.main-content {
 	position: relative;
 	height: 900px;
 }
