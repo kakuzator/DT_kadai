@@ -1,11 +1,16 @@
 <html>
 
+
 <head>
 	<meta charset="utf-8" lang="ja">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 	<title>ケータイガレージ</title>
 	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../smaho_style.css">
+	<link rel="stylesheet" href="../tablet_style.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/newsBord.js"></script>
+	<script type="text/javascript" src="../js/newsBord.js"></script>
+	<script type="text/javascript" src="../js/hamburgermenu.js"></script>
 </head>
 
 <body>
@@ -13,33 +18,21 @@
 		<div class="header">
 			<header>
 				<div>
+					<div class="hamburgermenu">
+						<label for="">
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
+					</div>
 					<div class="logo-wrap">
 						<a href="top.html"><img src="../images/logo.png" alt="" class="head-logo-img"></a>
 						<p class="head-logo"><a href="top.html">ケータイ ガレージ</a></p>
-					</div>
-					<!--ハンバーガーメニュー関連-->
-					<div class="hamburgermenu">
-						<div class="hidden-menu">
-							<nav class="head-nav">
-								<ul>
-									<li><a href="selfCheck.html">セルフチェックコース</a></li>
-									<li><a href="emergency.html">緊急チェックコース</a></li>
-									<li><a href="list.html">端末リスト</a></li>
-									<li><a href="budget.html">お見積もり・お申し込み</a></li>
-									<li><a href="access.html">アクセス</a></li>
-								</ul>
-							</nav>
-						</div>
 
-						<div class="hamburgermenu-wrap">
-							<label for="">
-								<span>
-								</span>
-							</label>
-						</div>
-					</div>
 
-					<nav class="head-nav">
+
+					</div>
+					<nav class="head-nav js-click-menu">
 						<ul>
 							<li><a href="selfCheck.html">セルフチェックコース</a></li>
 							<li><a href="emergency.html">緊急チェックコース</a></li>
@@ -49,41 +42,47 @@
 						</ul>
 					</nav>
 				</div>
-			</header>
 		</div>
+		</header>
+	</div>
 
-		<img src="../images/sep1.jpg" alt="" class="banner">
-		<div class="contet-wrap">
-			<h1 class="heading">簡単な表示・動作確認はセルフチェックのケータイガレージで</h1>
-			<p class="text">セルフチェックコースでは、名古屋市内のケータイガレージにてお客様ご自身で検証を行っていただけます。</p>
-			<p class="text">Wi-Fi環境を標準でご用意。リラックスして検証作業が行えます。</p>
-			<div class="button">
-				<img src="../images/arrow_white.png" alt="" class="arrow-white">
-				<p>セルフチェックコース</p>
-				<img src="../images/btn_blue.png" alt="" class="selfCheckbutton">
-			</div>
-			<div class="apply">
-				<img src="../images/arrow_blue.png" alt="" class="arrow-blue">
-				<p><a href="budget.html" class="apply-link">お見積もり・お申し込み</a></p>
+	<img src="../images/sep1.jpg" alt="" class="banner">
+	<div class="contet-wrap">
+		<h1 class="heading">簡単な表示・動作確認はセルフチェックのケータイガレージで</h1>
+		<p class="text">セルフチェックコースでは、名古屋市内のケータイガレージにてお客様ご自身で検証を行っていただけます。</p>
+		<p class="text">Wi-Fi環境を標準でご用意。リラックスして検証作業が行えます。</p>
+		<div class="button">
+			<img src="../images/arrow_white.png" alt="" class="arrow-white">
+			<p>セルフチェックコース</p>
+			<img src="../images/btn_blue.png" alt="" class="selfCheckbutton">
+		</div>
+		<div class="apply">
+			<img src="../images/arrow_blue.png" alt="" class="arrow-blue">
+			<p><a href="budget.html" class="apply-link">お見積もり・お申し込み</a></p>
+		</div>
+	</div>
+
+	<div class="footer-smaho">
+		Copyright(c)2014Ktai Grage Corporation All rights Reserved
+	</div>
+	<footer>
+
+		<div class="foot-wrap">
+			<div class="footer-left">
+				Copyright(c)2014Ktai Grage Corporation All rights Reserved
 			</div>
 		</div>
-		<footer>
-			<div class="foot-wrap">
-				<div class="footer-left">
-					Copyright(c)2014Ktai Grage Corporation All rights Reserved
-				</div>
+		<div class="foot-wrap">
+			<div class="footer-right">
+				<ul>
+					<li><a href="">会社情報 |</a></li>
+					<li><a href=""> サイトご利用条件 |</a></li>
+					<li><a href=""> プライバシーポリシー |</a></li>
+					<li><a href=""> お問い合わせ</a></li>
+				</ul>
 			</div>
-			<div class="foot-wrap">
-				<div class="footer-right">
-					<ul>
-						<li><a href="">会社情報 |</a></li>
-						<li><a href=""> サイトご利用条件 |</a></li>
-						<li><a href=""> プライバシーポリシー |</a></li>
-						<li><a href=""> お問い合わせ</a></li>
-					</ul>
-				</div>
-			</div>
-		</footer>
+		</div>
+	</footer>
 </body>
 
 </html>

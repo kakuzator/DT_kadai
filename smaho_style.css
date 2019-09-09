@@ -1,4 +1,4 @@
-	@media (max-width: 414px) {
+	@media (min-width: 414px) {
 		body {
 			width: 414px;
 		}
@@ -24,7 +24,7 @@
 			display: none;
 		}
 
-		.main-banner-smaho {
+		.main-banner-responsive {
 			display: block;
 			position: absolute;
 		}
@@ -86,7 +86,7 @@
 			right: 0;
 			display: block;
 			width: 40px;
-			height: 40px;
+			height: 38px;
 			background-color: #FFFFFF;
 			margin-left: auto;
 		}
@@ -135,15 +135,6 @@
 			left: 5px;
 		}
 
-		.hamburgermenu label span::before {
-
-			bottom: -13px;
-		}
-
-		.head-nav label span::after {
-
-			bottom: -26px;
-		}
 
 		.js-click-menu.active {
 			position: absolute;
@@ -157,7 +148,6 @@
 			padding-top: 40px;
 			background: #FFFFFF;
 			opacity: 0.9;
-
 		}
 
 		.head-nav.active ul {
@@ -190,4 +180,14 @@
 			text-align: center;
 			width: 100%;
 		}
+	}
+
+	.button,
+	.apply {
+		z-index: -1;
+	}
+
+
+	.arrow-blue {
+		left: 120px;
 	}

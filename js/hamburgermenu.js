@@ -6,6 +6,5 @@ $(function () {
 		$('.hamburgermenu').toggleClass('active');
 		$('.hidden-menu').toggleClass('open');
 		$('.js-click-menu').toggleClass('active');
-
 	})
 })
