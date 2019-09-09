@@ -1,4 +1,5 @@
 /*TOP・全体共通*/
+
 html {
 	position: relative;
 }
@@ -9,6 +10,7 @@ body {
 	font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic'
 		color: #999999;
 }
+
 
 .smaho-menu {
 	display: none;
@@ -152,7 +154,7 @@ a {
 	position: absolute;
 }
 
-.main-banner-smaho {
+.main-banner-responsive {
 	display: none;
 }
 
