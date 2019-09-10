@@ -1,7 +1,8 @@
 $(function () {
 
 	$('.hamburgermenu').on('click', function () {
-
+		$('html').toggleClass('top');
+		$('body').toggleClass('top');
 		$('header').toggleClass('active')
 		$('.hamburgermenu').toggleClass('active');
 		$('.hidden-menu').toggleClass('open');
@@ -11,6 +12,4 @@ $(function () {
 		let wH = $(window).height() - 40; //padding分マイナス
 		$('.js-click-menu').css('height', wH + 'px')
 	})
-
-
 })

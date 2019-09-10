@@ -7,7 +7,7 @@ $(function () {
 			news = data.split(/\n/);
 			console.log(news);
 			for (i = 0; i < 5; i++) {
-				$('#newsbord').append('<li class="news">' + news[i] + '</li>')
+				$('#newsbord').append('<div class="news">' + news[i] + '</div>')
 			}
 			//$('#newsbord').text(news);
 
