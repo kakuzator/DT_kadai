@@ -98,8 +98,9 @@ header div,
 #newsbord {
 	margin: 0 40px;
 	padding: 0;
-	height: 100px;
+	height: 80px;
 	font-size: 0.5px;
+	overflow-y: scroll;
 	color: #BBBBBB;
 }
 
@@ -165,7 +166,11 @@ header div,
 		width: 62%;
 		position: static;
 		height: 75px;
+		display: block;
+		text-align: center;
 	}
+
+	.news-txt {}
 
 	#newsbord {
 		margin: 0 30px;
@@ -232,15 +237,15 @@ header div,
 	#newstop {
 		width: 404px;
 		color: #00FFFF;
-		padding-left: 30px;
 		margin: 0 auto;
 		display: flex;
 		z-index: -1;
+		display: block;
+		text-align: center;
 	}
 
 	#newsbord {
 		margin: 0 30px;
-		width: 60%;
 		height: 40px;
 		overflow: scroll;
 		font-size: 0.3px;
